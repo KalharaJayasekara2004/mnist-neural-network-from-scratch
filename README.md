@@ -214,13 +214,13 @@ The dataset files are not included directly in this repository.
 To train and test the basic neural network:
 
 ```bash
-python src/mnist_nn.py
+python Codes/MNIST.py
 ```
 
 To run the hyperparameter experiments:
 
 ```bash
-python src/experiments.py
+python Codes/EXPERIMENTS.py
 ```
 
 ## Technologies
