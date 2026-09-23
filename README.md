@@ -169,9 +169,9 @@ mnist-neural-network-from-scratch/
 ├── README.md
 ├── requirements.txt
 │
-├── src/
-│   ├── mnist_nn.py
-│   └── experiments.py
+├── Codes/
+│   ├── MNIST.py
+│   └── EXPERIMENTS.py
 │
 └── results/
     ├── learning_rate_accuracy.png
