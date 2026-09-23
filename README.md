@@ -168,7 +168,6 @@ mnist-neural-network-from-scratch/
 │
 ├── README.md
 ├── requirements.txt
-├── .gitignore
 │
 ├── src/
 │   ├── mnist_nn.py
