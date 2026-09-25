@@ -139,27 +139,27 @@ The following values are recorded during the experiments:
 
 ### Learning Rate vs Accuracy
 
-![Learning Rate vs Accuracy](results/learning_rate_accuracy.png)
+![Learning Rate vs Accuracy](Results/Figure_1.png)
 
 ### Learning Rate vs Loss
 
-![Learning Rate vs Loss](results/learning_rate_loss.png)
+![Learning Rate vs Loss](Results/Figure_2.png)
 
 ### Epochs vs Accuracy
 
-![Epochs vs Accuracy](results/epochs_accuracy.png)
+![Epochs vs Accuracy](Results/Figure_3.png)
 
 ### Epochs vs Loss
 
-![Epochs vs Loss](results/epochs_loss.png)
+![Epochs vs Loss](Results/Figure_4.png)
 
 ### Hidden Neurons vs Accuracy
 
-![Hidden Neurons vs Accuracy](results/hidden_neurons_accuracy.png)
+![Hidden Neurons vs Accuracy](Results/Figure_5.png)
 
 ### Hidden Neurons vs Training Time
 
-![Hidden Neurons vs Training Time](results/hidden_neurons_time.png)
+![Hidden Neurons vs Training Time](Results/Figure_6.png)
 
 ## Project Structure
 
@@ -168,18 +168,19 @@ mnist-neural-network-from-scratch/
 │
 ├── README.md
 ├── requirements.txt
+├── results.txt
 │
 ├── Codes/
 │   ├── MNIST.py
-│   └── EXPERIMENTS.py
+│   └── Experiments.py
 │
-└── results/
-    ├── learning_rate_accuracy.png
-    ├── learning_rate_loss.png
-    ├── epochs_accuracy.png
-    ├── epochs_loss.png
-    ├── hidden_neurons_accuracy.png
-    └── hidden_neurons_time.png
+└── Results/
+    ├── Figure_1.png
+    ├── Figure_2.png
+    ├── Figure_3.png
+    ├── Figure_4.png
+    ├── Figure_5.png
+    └── Figure_6.png
 ```
 
 ## Installation
@@ -220,7 +221,7 @@ python Codes/MNIST.py
 To run the hyperparameter experiments:
 
 ```bash
-python Codes/EXPERIMENTS.py
+python Codes/Experiments.py
 ```
 
 ## Technologies
