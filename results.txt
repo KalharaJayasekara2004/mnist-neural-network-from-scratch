@@ -1,0 +1,121 @@
+Training data shape: (784, 60000)
+Training labels shape: (60000,)
+Test data shape: (784, 10000)
+Test labels shape: (10000,)
+
+
+============================================================
+EXPERIMENT 1: LEARNING RATE
+============================================================
+
+Testing learning rate = 0.1
+Training Accuracy = 92.02%
+Test Accuracy = 92.37%
+Test Loss = 0.2745
+
+Testing learning rate = 0.2
+Training Accuracy = 93.75%
+Test Accuracy = 93.65%
+Test Loss = 0.2207
+
+Testing learning rate = 0.6
+Training Accuracy = 96.82%
+Test Accuracy = 96.32%
+Test Loss = 0.1271
+
+Testing learning rate = 1.0
+Training Accuracy = 97.66%
+Test Accuracy = 97.01%
+Test Loss = 0.1007
+
+Testing learning rate = 1.2
+Training Accuracy = 97.33%
+Test Accuracy = 96.70%
+Test Loss = 0.1096
+
+
+============================================================
+EXPERIMENT 2: NUMBER OF EPOCHS
+============================================================
+
+Testing epochs = 10
+Training Accuracy = 76.83%
+Test Accuracy = 77.65%
+Test Loss = 1.1003
+
+Testing epochs = 25
+Training Accuracy = 84.58%
+Test Accuracy = 85.39%
+Test Loss = 0.6265
+
+Testing epochs = 50
+Training Accuracy = 87.84%
+Test Accuracy = 88.23%
+Test Loss = 0.4496
+
+Testing epochs = 100
+Training Accuracy = 89.82%
+Test Accuracy = 90.39%
+Test Loss = 0.3537
+
+Testing epochs = 200
+Training Accuracy = 91.47%
+Test Accuracy = 92.02%
+Test Loss = 0.2918
+
+
+============================================================
+EXPERIMENT 3: HIDDEN LAYER NEURONS
+============================================================
+
+Testing hidden neurons = 16
+Training Accuracy = 92.59%
+Test Accuracy = 92.38%
+Training Time = 87.96 seconds
+
+Testing hidden neurons = 32
+Training Accuracy = 93.47%
+Test Accuracy = 93.26%
+Training Time = 64.25 seconds
+
+Testing hidden neurons = 64
+Training Accuracy = 93.73%
+Test Accuracy = 93.83%
+Training Time = 101.57 seconds
+
+Testing hidden neurons = 128
+Training Accuracy = 93.75%
+Test Accuracy = 93.65%
+Training Time = 217.37 seconds
+
+
+============================================================
+LEARNING RATE RESULTS
+============================================================
+ Learning Rate  Train Accuracy (%)  Test Accuracy (%)  Test Loss  Training Time (s)
+           0.1           92.020000              92.37   0.274502         272.290935
+           0.2           93.753333              93.65   0.220723         328.899461
+           0.6           96.820000              96.32   0.127062         385.434216
+           1.0           97.661667              97.01   0.100671         372.744871
+           1.2           97.330000              96.70   0.109555         360.379184
+
+
+============================================================
+EPOCH RESULTS
+============================================================
+ Epochs  Train Accuracy (%)  Test Accuracy (%)  Test Loss  Training Time (s)
+     10           76.830000              77.65   1.100262           7.553897
+     25           84.585000              85.39   0.626456          19.598232
+     50           87.836667              88.23   0.449611          37.971676
+    100           89.820000              90.39   0.353683          77.107187
+    200           91.465000              92.02   0.291821         156.102406
+
+
+============================================================
+HIDDEN NEURON RESULTS
+============================================================
+ Hidden Neurons  Train Accuracy (%)  Test Accuracy (%)  Test Loss  Training Time (s)
+             16           92.593333              92.38   0.264390          87.962964
+             32           93.475000              93.26   0.228072          64.246807
+             64           93.731667              93.83   0.218374         101.566958
+            128           93.753333              93.65   0.220723         217.365815
